@@ -1,0 +1,38 @@
+[
+  {
+    "department": "Research and development",
+    "department_id": 1,
+    "roles": ["Biologist", "Chemist", "Engineer"],
+    "budget": 40000
+  },
+  {
+    "department": "Sales",
+    "department_id": 2,
+    "roles": ["SalesPerson"],
+    "budget": 30000
+  },
+  {
+    "department": "Marketing",
+    "department_id": 3,
+    "roles": ["Ad Writer", "Editor", "Marketing coodinator"],
+    "budget": 50000
+  },
+  {
+    "department": "B2B",
+    "department_id": 4,
+    "roles": ["Negotiator", "Brand Ambassador"],
+    "budget": 60000
+  },
+  {
+    "department": "Retail",
+    "department_id": 5,
+    "roles": ["Shelf stocker", "Register"],
+    "budget": 50000
+  },
+  {
+    "department": "Human Resources",
+    "department_id": 6,
+    "roles": "HR representative",
+    "budget": 20000
+  }
+]

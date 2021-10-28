@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Sal",
+    "salary": "200 Response St",
+    "role": "Sal",
+    "department_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Lernantino",
+    "salary": "404 Express Blvd",
+    "role": "Biologist",
+    "department_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Amiko",
+    "salary": "500 Error Handling Lane",
+    "role": "SalesPerson",
+    "department_id": 3
+  },
+  {
+    "id": 4,
+    "name": "Kyle",
+    "salary": "500 Error Handling Lane",
+    "role": "Ad Writer",
+    "department_id": 4
+  },
+  {
+    "id": 5,
+    "name": "Sanjay",
+    "salary": "500 Error Handling Lane",
+    "role": "Negotiator",
+    "department_id": 5
+  }
+]
