@@ -1,0 +1,34 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Tracks employees and info about them",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesStitzel/Employee-Tracker.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "java",
+    "inquirer"
+  ],
+  "author": "JamesStitzel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesStitzel/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/JamesStitzel/Employee-Tracker#readme"
+}
