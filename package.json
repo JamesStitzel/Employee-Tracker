@@ -1,34 +1,37 @@
 {
   "name": "employee-tracker",
-  "version": "1.0.0",
-  "description": "Tracks employees and info about them",
-  "main": "index.js",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "inquirer": "^8.2.0",
-    "mysql2": "^2.3.2",
-    "sequelize": "^6.8.0"
-  },
-  "devDependencies": {},
+  "version": "2.0.0",
+  "description": "Keeps info on your employees and company departments",
+  "main": "server.js",
   "scripts": {
-    "test": "npm test",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "mysql db/employees.db < db/schema.sql",
+    "seed": "mysql db/employees.db < db/seeds.sql",
+    "db": "mysql db/employees.db",
+    "watch": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesStitzel/Employee-Tracker.git"
+    "url": "git+https://github.com/jpd61/employee-tracker.git"
   },
-  "keywords": [
-    "npm",
-    "node",
-    "java",
-    "inquirer"
-  ],
-  "author": "JamesStitzel",
-  "license": "MIT",
+  "author": "James Stitzel",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JamesStitzel/Employee-Tracker/issues"
+    "url": "https://github.com/jpd61/employee-tracker/issues"
   },
-  "homepage": "https://github.com/JamesStitzel/Employee-Tracker#readme"
+  "homepage": "https://github.com/jpd61/employee-tracker#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.8.0",
+    "validator": "^13.0.0"
+  }
 }
