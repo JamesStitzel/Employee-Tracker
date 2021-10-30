@@ -10,6 +10,9 @@
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
+![Untitled_ Oct 29, 2021 10_26 PM](https://user-images.githubusercontent.com/89664909/139517314-bbb671bc-09c5-49f3-9ff8-9b048d13c9f1.gif)
+
 ## Installation
  npm i
 ## License
